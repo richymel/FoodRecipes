@@ -1,5 +1,5 @@
 ### Food Recipes  (aka. `Recipe Box`)
-#### FreeCodeCamp <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/freecodecamp.svg" width="40"> 303 Challenge 
+#### FreeCodeCamp <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/freecodecamp.svg" width="20"> 303 Challenge 
 ###### by  : RichyMel / 2017.08.14
 ***    
 This `FoodRecipes` github project has these core dependencies:
@@ -14,13 +14,13 @@ This `FoodRecipes` github project has these core dependencies:
 
 ***
 ##### Description:
-```
+
 This single-page-web-app is based on the React Redux *Reduxstagram* sample built by >[WesBos](http://wesbos.com/). It has been extended to perform CRUD operations on the posts themselves which correspond to a Recipe and all its individual ingredients.
 
 Some additional features include the ability to grab an image for a recipe using the pixabay API <https://pixabay.com/> This is an interesting idea because the app needs to be able to use redux with asynchronous responses from the API. The added complexity made the project more challenging and fun. Also, there is some basic input validation involved.
 
 Finally, take a look at the sample Sentry issue tracking/reporting feature (commented out) in ./client/recipes4fun.js (a great tool for production environments).
-```
+
 ***
 ##### Sources for *deeper understanding* and further *research*:
 
