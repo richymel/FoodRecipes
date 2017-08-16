@@ -43,6 +43,7 @@
     "react-transition-group": "^1.2.0",
     "redbox-react": "^1.2.3",
     "redux": "^3.5.2",
+    "redux-logger": "^2.10.2",
     "redux-promise-middleware": "^4.3.0",
     "redux-thunk": "^2.2.0",
     "rimraf": "^2.5.2",
@@ -58,7 +59,6 @@
     "expect": "^1.18.0",
     "expect-jsx": "^2.5.1",
     "mocha": "^2.4.5",
-    "react-addons-test-utils": "^15.0.2",
-    "redux-logger": "^2.10.2"
+    "react-addons-test-utils": "^15.0.2"    
   }
 }
