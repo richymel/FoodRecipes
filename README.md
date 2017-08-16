@@ -15,13 +15,20 @@ This `FoodRecipes` github project has these core dependencies:
 ***
 ##### Description:
 
-This single-page-web-app is based on the React Redux *Reduxstagram* sample built by >[WesBos](http://wesbos.com/). It has been extended to perform CRUD operations on the posts themselves which correspond to a Recipe and all its individual ingredients.
+This single-page-web-app is based on the React Redux *Reduxstagram* sample built by [WesBos](http://wesbos.com/). It has been extended to perform CRUD operations on the posts themselves which correspond to a Recipe and all its individual ingredients.
 
 Some additional features include the ability to grab an image for a recipe using the pixabay API <https://pixabay.com/> This is an interesting idea because the app needs to be able to use redux with asynchronous responses from the API. The added complexity made the project more challenging and fun. Also, there is some basic input validation involved.
 
 Finally, take a look at the sample Sentry issue tracking/reporting feature (commented out) in ./client/recipes4fun.js (a great tool for production environments).
 
 ***
+
+>Please play with the [DEMO HERE](https://recipes4fun.herokuapp.com/)
+>
+> NB. Any changes are persisted to the browser's localStorage.
+>     Any images you selected from [pixabay](https://pixabay.com) expire in a few days.
+>     You can erase the localStorage in your browser to reset the data repository to default status at any time.
+
 ##### Sources for *deeper understanding* and further *research*:
 
 The following people have useful tutorials and training available on-line. Thank you for putting this tutorials together!:
