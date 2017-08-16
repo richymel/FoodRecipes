@@ -1,0 +1,79 @@
+@import "partials/_colors";
+
+$fontChocolate: ChocolateBarDemo, sans-serif;
+$fontAwesome:   FontAwesome
+
+/*
+	Some SASS:
+ */
+
+@font-face {
+	font-family: $fontChocolate;
+c: url("fonts/ChocolateBarDemo.eot");
+	src: url("fonts/ChocolateBarDemo.woff") format('woff'), url("fonts/ChocolateBarDemo.ttf") format('truetype'), url("fonts/ChocolateBarDemo.svg#ChocolateBarDemo") format('svg'), url("fonts/ChocolateBarDemo.eot?#iefix") format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: $FontAwesome;
+	src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff") format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+html {
+	font-size: 10px;
+	font-family: sans-serif;
+}
+p {
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+h1 {
+	font-family: ChocolateBarDemo, 'ChocolateBarDemo';
+	text-align: center;
+	font-weight: 100;
+	font-size: 8rem;
+	margin: 2rem 0;
+	letter-spacing: -1px;
+	text-shadow: 0px 4px 0 rgba(18,86,136,0.11);
+	a {
+		color: $linkColor;
+		text-decoration: none;
+		&:focus {
+			outline: 0;
+		}
+	}
+}
+.delete {
+	font-family: FontAwesome;
+	color: $coquelicot;
+	font-size: 1.7rem;
+}
+.edit {
+	font-family: FontAwesome;
+	color: $blue;
+	font-size: 1.7rem;
+}
+.errorMsg {
+	display: block;
+	font-size: 1.2rem;
+	padding: 1rem;
+	color: $coquelicot;
+	font-style: oblique;
+}
+&::-webkit-input-placeholder {
+	color: $chocolate;
+	font-style: oblique;
+}
+&::-moz-placeholder {
+	color: $chocolate;
+	font-style: oblique;
+}
+&:-ms-input-placeholder {
+	color: $chocolate;
+	font-style: oblique;
+}
+&:-moz-placeholder {
+	color: $chocolate;
+	font-style: oblique;
+}

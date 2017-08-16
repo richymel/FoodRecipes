@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ARSNovelty-Bold';
+  src: url('ARSNovelty-Bold.eot');
+  src: url('ARSNovelty-Bold.woff') format('woff'),
+       url('ARSNovelty-Bold.ttf') format('truetype'),
+       url('ARSNovelty-Bold.svg#ARSNovelty-Bold') format('svg'),
+       url('ARSNovelty-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,95 @@
+/*
+  Variables
+*/
+
+blue = #125688
+offwhite = #fafafa
+lightgrey  = #EDEEED
+lightgray = lightgrey // OH Canada!
+
+html
+  font-size 10px
+  font-family sans-serif
+
+p
+  font-size 1.6rem
+  line-height 1.5
+
+h1
+  font-family ChocolateBarDemo, 'ChocolateBarDemo'
+  text-align center
+  font-weight 100
+  font-size 8 rem
+  margin 2rem 0
+  letter-spacing -1px
+  text-shadow 0px 4px 0 rgba(18, 86, 136, 0.11)
+  a
+    color #7B3F00
+    text-decoration none
+    &:focus
+      outline 0
+
+// Delete Symbol: NB a direct way to render the symbol is using hex representation of the Unicode value:
+//   Usage: see ./components/Photo.js and ./components/Comments.js  (&#xF1F8;)
+//   cf. http://fontawesome.io/icon/trash/ 
+//      fa-trash  · Unicode: f1f8 · Created: v4.2 · Categories: Web Application Icons
+
+.delete
+  font-family FontAwesome
+  color #FF3800
+  font-size 1.7rem
+
+.edit
+  font-family FontAwesome
+  color blue
+  font-size 1.7rem
+
+// Error messages
+
+.errorMsg
+  display block  
+  font-size 1.2rem
+  padding 1 rem
+  color #FF3800
+  font-style oblique
+
+//Format the placeholder
+
+::-webkit-input-placeholder
+    color #7B3F00
+    font-style oblique
+
+::-moz-placeholder
+    color #7B3F00
+    font-style oblique
+
+:-ms-input-placeholder
+    color #7B3F00
+    font-style oblique
+
+:-moz-placeholder
+    color #7B3F00
+    font-style oblique
+
+
+// Chocolate Bar Demo http://www.1001fonts.com/food-fonts.html?page=4&items=10
+//    webfonts via https://onlinefontconverter.com/
+//    webpack loaders needed (npm packages): url-loader and file-loader
+
+@font-face {
+  font-family: 'ChocolateBarDemo';
+  src: url('fonts/ChocolateBarDemo.eot');
+  src: url('fonts/ChocolateBarDemo.woff') format('woff'),
+       url('fonts/ChocolateBarDemo.ttf') format('truetype'),
+       url('fonts/ChocolateBarDemo.svg#ChocolateBarDemo') format('svg'),
+       url('fonts/ChocolateBarDemo.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
