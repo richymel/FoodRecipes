@@ -3,13 +3,15 @@
 ###### by  : RichyMel / 2017.08.14
 ***    
 This `FoodRecipes` github project has these core dependencies:
+
 | npm Module        | Description           | Documentation  |
 | ------------- |:-------------:|:-----|
-| ![ReactJS](https://en.wikipedia.org/wiki/File:React-icon.svg =30x1) React  | All view components are built on React.js | <https://facebook.github.io/react/> |
+| ![ReactJS](https://en.wikipedia.org/wiki/File:React-icon.svg) React  | All view components are built on React.js | <https://facebook.github.io/react/> |
 | ![Redux](https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67 =30x1) Redux  | Powerful state container for JS apps, features live code editing plus a time travel debugger/state visualizer | <http://redux.js.org/> |
 | Redux Form | Specialized Form state manager  | <http://redux-form.com> |
 | React Router & React Router Redux | A collection of navigational components to build a single page web app | <https://reacttraining.com/react-router/> <https://github.com/reactjs/react-router-redux>|
 | Redux Thunk | Middleware to handle delayed dispatch actions (i.e. async calls to APIs) | <https://github.com/gaearon/redux-thunk> |
+
 ***
 ##### Description:
 ```
