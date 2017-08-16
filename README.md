@@ -1,6 +1,6 @@
-###Food Recipes  (aka. `Recipe Box`)
-####FreeCodeCamp ![FreeCodeCamp](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/freecodecamp.svg =40x1) 303 Challenge 
-######by  : RichyMel / 2017.08.14
+### Food Recipes  (aka. `Recipe Box`)
+#### FreeCodeCamp ![FreeCodeCamp](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/freecodecamp.svg =40x1) 303 Challenge 
+###### by  : RichyMel / 2017.08.14
 ***    
 This `FoodRecipes` github project has these core dependencies:
 | npm Module        | Description           | Documentation  |
@@ -11,7 +11,7 @@ This `FoodRecipes` github project has these core dependencies:
 | React Router & React Router Redux | A collection of navigational components to build a single page web app | <https://reacttraining.com/react-router/> <https://github.com/reactjs/react-router-redux>|
 | Redux Thunk | Middleware to handle delayed dispatch actions (i.e. async calls to APIs) | <https://github.com/gaearon/redux-thunk> |
 ***
-#####Description:
+##### Description:
 ```
 This single-page-web-app is based on the React Redux *Reduxstagram* sample built by >[WesBos](http://wesbos.com/). It has been extended to perform CRUD operations on the posts themselves which correspond to a Recipe and all its individual ingredients.
 
@@ -20,7 +20,7 @@ Some additional features include the ability to grab an image for a recipe using
 Finally, take a look at the sample Sentry issue tracking/reporting feature (commented out) in ./client/recipes4fun.js (a great tool for production environments).
 ```
 ***
-#####Sources for *deeper understanding* and further *research*:
+##### Sources for *deeper understanding* and further *research*:
 
 The following people have useful tutorials and training available on-line. Thank you for putting this tutorials together!:
 
