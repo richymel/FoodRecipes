@@ -1,5 +1,5 @@
 ### Food Recipes  (aka. `Recipe Box`)
-#### FreeCodeCamp ![FreeCodeCamp](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/freecodecamp.svg) 303 Challenge 
+#### FreeCodeCamp ![FreeCodeCamp](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/freecodecamp.svg){:height="20%" width="20%"} 303 Challenge 
 ###### by  : RichyMel / 2017.08.14
 ***    
 This `FoodRecipes` github project has these core dependencies:
